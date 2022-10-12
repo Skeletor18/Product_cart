@@ -35,20 +35,18 @@ function App() {
       )}
 
       <div className="text">
-        {" "}
         <p>
           While there is some confusion regarding which monicker will be the
           official name come release day, this might just be the most insane
           sneaker ever put to market.
         </p>
         {!basket ? (
-          <button className="add" onClick={() => setBasket(true)}>
+          <button className="add" onClick={() => setBasket(true)} >
             Добавить в корзину
           </button>
         ) : (
           <button
             className="add"
-            onClick={() => setBasket(false)}
             style={{ opacity: "0.7", cursor: "not-allowed" }}
             disabled={basket}
           >
