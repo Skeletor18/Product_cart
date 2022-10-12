@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+  max-width: 30%;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+}
+.img img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.infa_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.price {
+  margin-top: 25px;
+}
+.infa {
+  font-weight: 700;
+  font-size: 24px;
+}
+.btn_details button {
+  border-color: green;
+  background-color: transparent;
+  color: green;
+  font-size: 24px;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.properties .btn_red button {
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  color: red;
+}
+
+.properties {
+  position: absolute;
+  left: 99%;
+  bottom: 40%;
+  display: flex;
+  width: 100%;
+  max-width: 70%;
+  box-shadow: 0 0 5px 0 green;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.properties .lorem {
+  margin-top: 20px;
+  font-weight: 600;
+}
+.text {
+  border-top: 1px solid green;
+  margin-top: 20px;
+}
+.text p {
+  margin-top: 20px;
+  font-weight: 500;
+}
+.add {
+  border-radius: 5px;
+  background-color: green;
+  border: none;
+  padding: 15px 20px;
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.delete_baskets button {
+  border: none;
+  color: red;
+  font-size: 15px;
+  background-color: transparent;
+  font-weight: 400;
+  cursor: pointer;
+}
+.delete_baskets {
+  margin-top: 5px;
+  text-align: center;
+}
